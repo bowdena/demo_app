@@ -18,6 +18,11 @@ end
 
 gem 'jquery-rails'
 
+# http://stackoverflow.com/questions/6282307/rails-3-1-execjs-and-could-not-find-a-javascript-runtime
+gem 'execjs'
+gem 'therubyracer'
+
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
